@@ -1,0 +1,924 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mukta', sans-serif;
+}
+
+#Kolona{
+    padding: 0px;
+}
+#proizvodi a::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #18272F;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+#proizvodi a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+
+#popust{
+    border-radius: 0 0 0 10px;
+}
+.full-width-image {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+#Anime-pozadina{
+    height: 1050px;
+    width: 100%;
+    border-bottom: 5px solid;
+    
+}
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    background-color: white;
+  }
+  .image-overlay img {
+    width: 100%;
+  }
+  .container-80 {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .repeated-section {
+    margin-bottom: 20px;
+  }
+#Naslov{
+    text-align: center;
+    padding: 15px 0 10px 0;
+    border-bottom: 4px solid;
+}
+#dugme{
+    border: 2px solid;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    left:30px
+}
+#dugme2{
+    border: 2px solid;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    right: 30px;
+}
+#Mange-drzac img {
+    width: 30px;
+}
+#liveToastBtn {
+    margin: 10px 0 10px 0 ;
+}
+#Pozadina-mange, 
+#Pozadina-stripovi, 
+#Pozadina-figure{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#image-container2 {
+    position: relative;
+    display: inline-block;
+  }
+#Kartice{
+    width: 40px;
+    margin-left: 30px;
+}
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .carousel-caption.show {
+    opacity: 1;
+  }
+  
+  .text-animation {
+    animation: slide-in 1s forwards;
+   .carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.carousel-caption.show {
+  opacity: 1;
+}
+
+.text-animation {
+  animation: slide-in 0.5s forwards;
+  animation-delay: 1s;
+}
+@keyframes slide-in {
+  0% {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+  }
+  
+  @keyframes slide-in {
+    0% {
+      transform: translateY(50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+.Kontakt-pozadina{
+    background: url('../Slike/Anime-pozadina3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.display-6{
+    text-align: center;
+}
+#Kontakt-kontejner{
+    width: 50%;
+}
+#Submit{
+    width: 100%;
+    transition: 0.5s;
+}
+#Submit2{
+    transition: 0.5s;
+    width: 100%;
+}
+.Akaunt a{
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+#Submit:hover{
+    transform:scale(1.05);
+    letter-spacing:2px;
+    
+}
+#Submit2:hover{
+    transform:scale(1.05);
+    letter-spacing:2px;
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+.form-area{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    background: url('../Slike/Prijava-pozadina.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#kontejner{
+    padding-left: 0;
+    padding-right: 0;
+    border: 1px solid;
+}
+#row-single-form{
+    box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.5);
+}
+.left{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 130px 93px;
+} 
+.left h2{
+    color: #fff;
+    font-weight: 400;
+    font-size: 23px;
+}
+.left span{
+    font-size: 35px;
+    color: black;
+}
+.right{
+    padding: 70px 100px;
+    position: relative;
+}
+.right i {
+    position: absolute;
+    font-size: 80px;
+    left: -27px;
+    top: 40%;
+    color: #fff;
+}
+.from-control {
+    border: 2px solid;
+}
+.right button{
+    border: none;
+    border-radius: 0;
+    background: #252525;
+    width: 180px;
+    color: #fff;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#kolona{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#copyright{
+    color: black;
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .right i {
+        top:-52px;
+        transform: rotate(90deg);
+        left: 50%;
+    }
+}
+@media (max-width: 768px){
+    .left{
+        padding: 90px 15px;
+        text-align: center;
+    }
+    .left h2{
+        font-size: 25px;
+    }
+    .right{
+        padding: 25px;
+    }
+    .right i{
+        top: -52px;
+        transform: rotate(90deg);
+        left: 45%;
+    }
+    .right button{
+        width: 150px;
+        padding: 12px 0;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 344px){
+    #h3-animacija{
+        font-size: 12pt;
+    }
+    #p-animacija{
+        font-size: 8pt;
+    }
+    #Anime-pozadina{
+        height: 3800px;
+        width: 3800px;
+    }
+    #Kartice {
+        width: 35px;
+        margin-left: 20px;
+    }
+    #Mreze{
+        width: 55px;
+    }
+    #Kontakt-kontejner{
+        width: 80%;
+    }
+    .left{
+        padding: 40px 9px;
+    }
+    #kontejner{
+        border: none;
+    }
+    .form-area{
+        padding: 0%;
+    }
+}
+@media screen and (min-width: 345px) and (max-width: 470px){
+    #Anime-pozadina{
+        height: 4000px;
+        width: 4000px;
+    }
+    #Kontakt-kontejner{
+        width: 80%;
+    }
+    .form-area{
+        padding: 0%;
+    }
+}
+@media screen and (min-width: 371px) and (max-width: 390px){
+    #Anime-pozadina{
+        height: 4150px;
+        width: 4150px;
+    }
+    #Kontakt-kontejner{
+        width: 80%;
+    }
+    .form-area{
+        padding: 0%;
+    }
+}
+@media screen and (min-width: 391px) and (max-width: 410px){
+    #Anime-pozadina{
+        height: 4300px;
+        width: 4300px;
+    }
+    #Kontakt-kontejner{
+        width: 80%;
+    }
+    .form-area{
+        padding: 0%;
+    }
+}
+@media screen and (min-width: 411px) and (max-width: 420px){
+    #Anime-pozadina{
+        height: 4375px;
+        width: 4375px;
+    }
+    #Kontakt-kontejner{
+        width: 80%;
+    }
+    .form-area{
+        padding: 0%;
+    }
+}
+@media screen and (min-width: 421px) and (max-width: 441px){
+    #Anime-pozadina{
+        height: 4550px !important;
+        width: 4550px !important;
+    }
+    #h3-animacija{
+        font-size: 12pt;
+    }
+    #p-animacija{
+        font-size: 8pt;
+    }
+    #Anime-pozadina{
+        height: 4400px;
+        width: 4400px;
+    }
+    #Kartice {
+        width: 50px;
+        margin-left: 20px;
+    }
+    #Mreze{
+        width: 75px;
+    }
+    #Mreze-ikonice{
+        font-size: 20pt;
+    }
+    #Kontakt-kontejner{
+        width: 80%;
+    }
+    .left{
+        padding: 40px 9px;
+    }
+    #kontejner{
+        border: none;
+    }
+    .form-area{
+        padding: 0%;
+    }
+}
+@media screen and (min-width: 442px) and (max-width: 453px){
+    #Anime-pozadina{
+        height: 4650px !important;
+        width: 4650px !important;
+    }
+    #Kontakt-kontejner{
+        width: 80%;
+    }
+    .form-area{
+        padding: 0%;
+    }
+}
+@media screen and (min-width: 454px) and (max-width: 473px){
+    #Anime-pozadina{
+        height: 4800px !important;
+        width: 4800px !important;
+    }
+    #Kontakt-kontejner{
+        width: 80%;
+    }
+    .form-area{
+        padding: 0%;
+    }
+}
+@media screen and (min-width: 474px) and (max-width: 500px){
+    #Anime-pozadina{
+        height: 5000px !important;
+        width: 5000px !important;
+    }
+    #Kontakt-kontejner{
+        width: 80%;
+    }
+    .form-area{
+        padding: 0%;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 575px){
+    #Anime-pozadina{
+        height: 5625px !important;
+        width: 5625px !important;
+    }
+    #liveToastBtn {
+        font-size: 15pt;
+    }
+    #Kontakt-kontejner{
+        width: 70%;
+    }
+    #popust{
+        font-size: 9pt;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 700px){
+    #Anime-pozadina{
+        height: 700px !important;
+        width: 900px !important;
+    }
+    .fs{
+        font-size: 9pt;
+    }
+    #liveToastBtn {
+        font-size: 8pt;
+    }
+    #Kontakt-kontejner{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px){
+    #Anime-pozadina{
+        height: 700px !important;
+        width: 900px !important;
+    }
+    .fs{
+        font-size: 9pt;
+    }
+    #liveToastBtn {
+        font-size: 8pt;
+    }
+    #Kontakt-kontejner{
+        width: 70%;
+    }
+}
+@media screen and (min-width: 991px) and (max-width: 1023px){
+    #Anime-pozadina{
+        height: 850px;
+        width: 1024px;
+    }
+    .fs{
+        font-size: 14pt;
+    }
+    .col-sm-3 p{
+        font-size: 12pt;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1052px) {
+    #Anime-pozadina{
+        height: 888px;
+        width: 1148px;
+    }
+    #Kontakt-kontejner{
+        width: 60%;
+    }
+
+    #dugme, 
+    #dugme2{
+        width: 50px;
+        height: 50px;
+    }
+    .fs{
+        font-size: 16pt;
+    }
+    .col-sm-3 p{
+        font-size: 15pt;
+    }
+}
+@media screen and (min-width:1052px) and (max-width:1439px){
+    #Anime-pozadina{
+        height: 1200px !important;
+        width: 1440px;
+    }
+    #dugme, 
+    #dugme2{
+        width: 70px;
+        height: 70px;
+    }
+    .fs{
+        font-size: 19pt;
+    }
+    .col-sm-3 p{
+        font-size: 16pt;
+    }
+    #liveToastBtn {
+        font-size: 16pt;
+    }
+    #Naslov{
+        font-size: 35pt;
+    }
+    .display-6{
+        font-size: 40pt;
+    }
+    .form-label,
+    .form-control, 
+    .form-select,
+    .form-check-label{
+        font-size: 17pt;
+    }
+    .form-check-input{
+        font-size: 19pt;
+        padding-top: 30px;
+        padding-left: 30px; 
+    }
+    .form-check{
+        padding-left: 40px;
+    }
+    option{
+        font-size: 8pt;
+    }
+    #Submit{
+        font-size: 25pt;
+    }
+    #Submit2{
+        font-size: 19pt;
+    }
+    #Submit:hover{
+        transform: scale(1.03);
+    }
+    #Kontakt-kontejner{
+        width: 60%;
+    }
+    .form-area{
+        padding-top: 7% !important;
+        padding-bottom: 7% !important;
+    }
+    .left{
+        padding: 175px 30px;
+    }
+    .left span{
+        font-size: 25pt;
+    }
+    .left h2{
+        font-size: 22pt;
+    } 
+    .form-area{
+        padding: 0%;
+    }
+    .Akaunt p{
+        font-size: 16pt ;
+    }
+    #popust {
+        font-size: 20pt !important;
+    }
+    
+}
+@media screen and (min-width: 1440px) and (max-width:1510px) {
+    .left{
+        padding: 155px 93px;
+    } 
+    #Anime-pozadina{
+        height: 1200px !important;
+        width: 1600px !important;
+    }
+    #dugme, 
+    #dugme2{
+        width: 70px;
+        height: 70px;
+    }
+    .fs{
+        font-size: 22pt;
+    }
+    .col-sm-3 p{
+        font-size: 19pt;
+    }
+    #liveToastBtn {
+        font-size: 20pt;
+    }
+    #Naslov{
+        font-size: 35pt;
+    }
+    .display-6{
+        font-size: 40pt;
+    }
+    .form-label,
+    .form-control, 
+    .form-select,
+    .form-check-label{
+        font-size: 22pt;
+    }
+    .form-check-input{
+        font-size: 20pt;
+        padding-top: 30px;
+        padding-left: 30px; 
+    }
+    .form-check{
+        padding-left: 40px;
+    }
+    option{
+        font-size: 10pt;
+    }
+    #Submit{
+        font-size: 30pt;
+    }
+    #Submit2{
+        font-size: 23pt;
+    }
+    #Submit:hover{
+        transform: scale(1.03);
+    }
+    #Kontakt-kontejner{
+        width: 80%;
+    }
+    .form-area{
+        padding-top: 7% !important;
+        padding-bottom: 7% !important;
+    }
+    .left{
+        padding: 137px 75px;
+    }
+    .left span{
+        font-size: 35pt;
+    }
+    .left h2{
+        font-size: 30pt;
+    } 
+    .form-area{
+        padding: 0%;
+    }
+    .Akaunt p{
+        font-size: 20pt ;
+    }
+    #popust {
+        font-size: 20pt !important;
+    }
+}
+@media screen and (min-width: 1510px) and (max-width:1600px) {
+    .left{
+        padding: 155px 93px;
+    } 
+    #Anime-pozadina{
+        height: 1300px !important;
+        width: 1600px !important;
+    }
+    #dugme, 
+    #dugme2{
+        width: 70px;
+        height: 70px;
+    }
+    .fs{
+        font-size: 22pt;
+    }
+    .col-sm-3 p{
+        font-size: 19pt;
+    }
+    #liveToastBtn {
+        font-size: 20pt;
+    }
+    #Naslov{
+        font-size: 35pt;
+    }
+    .display-6{
+        font-size: 40pt;
+    }
+    .form-label,
+    .form-control, 
+    .form-select,
+    .form-check-label{
+        font-size: 25pt;
+    }
+    .form-check-input{
+        font-size: 20pt;
+        padding-top: 30px;
+        padding-left: 30px; 
+    }
+    .form-check{
+        padding-left: 40px;
+    }
+    option{
+        font-size: 10pt;
+    }
+    #Submit{
+        font-size: 30pt;
+    }
+    #Submit2{
+        font-size: 23pt;
+    }
+    #Submit:hover{
+        transform: scale(1.03);
+    }
+    #Kontakt-kontejner{
+        width: 80%;
+    }
+    .form-area{
+        padding-top: 7% !important;
+        padding-bottom: 7% !important;
+    }
+    .left{
+        padding: 137px 75px;
+    }
+    .left span{
+        font-size: 35pt;
+    }
+    .left h2{
+        font-size: 30pt;
+    } 
+    .form-area{
+        padding: 0%;
+    }
+    .Akaunt p{
+        font-size: 20pt ;
+    }
+    #popust {
+        font-size: 20pt !important;
+    }
+    .nav-link{
+        font-size: 18pt;
+    }
+}
+@media screen and (min-width: 1601px) and (max-width:1850px) {
+
+    #dugme, 
+    #dugme2{
+        width: 80px;
+        height: 80px;
+    }
+    #Anime-pozadina{
+        height: 1350px !important;
+        width: 1800px !important;
+    }
+    .fs{
+        font-size: 23pt;
+    }
+    .col-sm-3 p{
+        font-size: 18pt;
+    }
+    #liveToastBtn {
+        font-size: 20pt;
+    }
+    #Naslov{
+        font-size: 35pt;
+    }
+    .display-6{
+        font-size: 40pt;
+    }
+    .form-label,
+    .form-control, 
+    .form-select,
+    .form-check-label{
+        font-size: 25pt;
+    }
+    .form-check-input{
+        font-size: 20pt;
+        padding-top: 30px;
+        padding-left: 30px; 
+    }
+    .form-check{
+        padding-left: 40px;
+    }
+    option{
+        font-size: 10pt;
+    }
+    #Submit{
+        font-size: 30pt;
+    }
+    #Submit2{
+        font-size: 23pt;
+    }
+    #Submit:hover{
+        transform: scale(1.03);
+    }
+    #Kontakt-kontejner{
+        width: 80%;
+    }
+    .form-area{
+        padding-top: 7% !important;
+        padding-bottom: 7% !important;
+    }
+    .left{
+        padding: 137px 75px;
+    }
+    .left span{
+        font-size: 35pt;
+    }
+    .left h2{
+        font-size: 30pt;
+    } 
+    .form-area{
+        padding: 0%;
+    }
+    .Akaunt p{
+        font-size: 20pt ;
+    }
+    #popust {
+        font-size: 20pt !important;
+    }
+    .nav-link{
+        font-size: 18pt;
+    }
+}
+@media screen and (min-width: 1851px) and (max-width:1920px) {
+
+    #dugme, 
+    #dugme2{
+        width: 80px;
+        height: 80px;
+    }
+
+    #Anime-pozadina{
+        height: 1380px !important;
+        width: 1920px !important;
+    }
+    .fs{
+        font-size: 27pt;
+    }
+    .col-sm-3 p{
+        font-size: 18pt;
+    }
+    #liveToastBtn {
+        font-size: 20pt;
+    }
+    #Naslov{
+        font-size: 35pt;
+    }
+    .display-6{
+        font-size: 40pt;
+    }
+    .form-label,
+    .form-control, 
+    .form-select,
+    .form-check-label{
+        font-size: 25pt;
+    }
+    .form-check-input{
+        font-size: 20pt;
+        padding-top: 30px;
+        padding-left: 30px; 
+    }
+    .form-check{
+        padding-left: 40px;
+    }
+    option{
+        font-size: 10pt;
+    }
+    #Submit{
+        font-size: 30pt;
+    }
+    #Submit2{
+        font-size: 23pt;
+    }
+    #Submit:hover{
+        transform: scale(1.03);
+    }
+    #Kontakt-kontejner{
+        width: 80%;
+    }
+    .form-area{
+        padding-top: 7% !important;
+        padding-bottom: 7% !important;
+    }
+    .left{
+        padding: 137px 75px;
+    }
+    .left span{
+        font-size: 35pt;
+    }
+    .left h2{
+        font-size: 30pt;
+    } 
+    .form-area{
+        padding: 0%;
+    }
+    .Akaunt p{
+        font-size: 20pt ;
+    }
+    #popust {
+        font-size: 22pt !important;
+    }
+    .nav-link{
+        font-size: 20pt;
+    }
+    .col-md-6{
+        font-size: 20pt;
+    }
+}
+
+
+
+
+
