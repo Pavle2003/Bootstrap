@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" >
+    <script src="https://kit.fontawesome.com/f89657e658.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+        <div class="container">
+          <div class="row">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="index.html#container">
+                  <img src="Slike/Goku-logo" alt="Logo" width="150px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav mx-auto">
+                    
+                    <li class="nav-item px-3">
+                      <a class="nav-link" href="index.html#container">Početna</a>
+                    </li>
+                    <li class="nav-item px-3">
+                      <a class="nav-link" href="index.html#Pozadina-mange">Mange</a>
+                    </li>
+                    <li class="nav-item px-3">
+                      <a class="nav-link" href="index.html#Pozadina-stripovi">Stripovi</a>
+                    </li>
+                    <li class="nav-item px-3">
+                      <a class="nav-link" href="index.html#Pozadina-figure">Akcione Figure</a>
+                    </li>
+                    <li class="nav-item px-3">
+                      <a class="nav-link" href="Prijava.html">Prijava</a>
+                    </li>
+                    <li class="nav-item px-3">
+                      <a class="nav-link" href="Kontakt.html">Napravi Nalog</a>
+                    </li>
+                    <li class="nav-item px-3">
+                      <a class="nav-link" href="Autor.html">Autor</a>
+                    </li>
+        
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+<main class="Kontakt-pozadina">
+    <section class="container my-2 bg-dark text-light p-2" id="Kontakt-kontejner">
+     <form class="row g-3 p-3">
+         <div class="col-md-4">
+             <label for="validationDefault01" class="form-label">Ime</label>
+             <input type="text" class="form-control" id="validationDefault01" placeholder="Petar" required>
+           </div>
+           <div class="col-md-4">
+             <label for="validationDefault02" class="form-label">Prezime</label>
+             <input type="text" class="form-control" id="validationDefault02" placeholder="Dmitrović" required>
+           </div>
+           <div class="col-md-4">
+             <label for="validationDefaultUsername" class="form-label">Korisnicko Ime</label>
+             <div class="input-group">
+               <span class="input-group-text" id="inputGroupPrepend2">@</span>
+               <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+             </div>
+           </div>
+         <div class="col-md-6">
+           <label for="inputEmail4" class="form-label">Email</label>
+           <input type="email" class="form-control" id="inputEmail4" placeholder="pero123@gmail.com">
+         </div>
+         <div class="col-md-6">
+           <label for="inputPassword4" class="form-label">Šifra</label>
+           <input type="password" class="form-control" id="inputPassword4">
+         </div>
+         <div class="col-12">
+           <label for="inputAddress" class="form-label">Adresa</label>
+           <input type="text" class="form-control" id="inputAddress" placeholder="Čarlija Čaplina 18">
+         </div>
+         <div class="col-12">
+           <label for="inputAddress2" class="form-label">Adresa 2</label>
+           <input type="text" class="form-control" id="inputAddress2" placeholder="Stan, studio, kuća...">
+         </div>
+         <div class="col-md-6">
+           <label for="inputCity" class="form-label">Grad</label>
+           <input type="text" class="form-control" id="inputCity">
+         </div>
+         <div class="col-md-6">
+           <label for="inputState" class="form-label">Država</label>
+           <select id="inputState" class="form-select">
+             <option selected>Izaberi...</option>
+             <option>Srbija</option>
+             <option>Rusija</option>
+             <option>Engleska</option>
+           </select>
+         </div>
+         <div class="col-12">
+           <div class="form-check">
+             <input class="form-check-input" type="checkbox" id="gridCheck">
+             <label class="form-check-label" for="gridCheck">
+               Prihvatam sva pravila korišćenja
+             </label>
+           </div>
+         </div>
+         <div class="col-12">
+           <button type="submit" class="btn btn-primary" id="Submit">Napravi Nalog</button>
+         </div>
+       </form>
+    </section>
+</main>
+
+    <footer class="bg-light text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="https://www.facebook.com/"
+              role="button" target="_blank" id="Mreze" 
+              ><i class="fab fa-facebook-f" id="Mreze-ikonice"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #55acee;"
+              href="https://www.Twitter.com/"
+              role="button" target="_blank" id="Mreze" 
+              ><i class="fab fa-twitter" id="Mreze-ikonice"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #dd4b39;"
+              href="https://www.gmail.com/"
+              role="button" target="_blank" id="Mreze" 
+              ><i class="fab fa-google" id="Mreze-ikonice"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #ac2bac;"
+              href="https://www.instagram.com/"
+              role="button" target="_blank" id="Mreze" id="Mreze-ikonice"
+              ><i class="fab fa-instagram"></i ></a>
+
+
+                <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #252525;"
+            href="https://www.instagram.com/"
+            role="button" target="_blank" id="Mreze"
+            ><i class="fa-solid fa-sitemap" id="Mreze-ikonice"></i></a>
+
+
+            <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #252525;"
+            href="https://www.instagram.com/"
+            role="button" target="_blank" id="Mreze"
+            ><i class="fa-solid fa-rss" id="Mreze-ikonice"></i></a>
+
+
+
+            <img src="Slike/DinaCard2.png" alt="DinaCard" id="Kartice">
+            <img src="Slike/MasterCard.png" alt="MasterCard" id="Kartice">
+            <img src="Slike/PayPal.png" alt="PayPal" id="Kartice">
+            <img src="Slike/Visa3.jpg" alt="Visa" id="Kartice">      
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3 h5" style="background-color: rgba(0, 0, 0, 0.5);" id="copyright">
+          © 2023 Copyright:
+          <img src="Slike/Goku-logo" alt="logo" width="100px">
+        </div>
+        <!-- Copyright -->
+      </footer>
+  
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+      <script>
+        const toastTrigger = document.getElementById('liveToastBtn')
+        const toastLiveExample = document.getElementById('liveToast')
+  
+          if (toastTrigger) {
+            const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+            toastTrigger.addEventListener('click', () => {
+              toastBootstrap.show()
+            })
+          }
+      </script>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        var carouselCaptions = document.querySelectorAll('.carousel-caption');
+        
+        function showCaption() {
+          var activeCaption = document.querySelector('.carousel-caption.show');
+          if (activeCaption) {
+            activeCaption.classList.remove('show');
+          }
+          this.querySelector('.carousel-caption').classList.add('show');
+        }
+        
+        carouselCaptions.forEach(function(caption) {
+          var carouselItem = caption.parentNode;
+          carouselItem.addEventListener('mouseenter', showCaption);
+          carouselItem.addEventListener('touchstart', showCaption);
+        });
+      });
+      </script>
+      <script>
+        function pretraziProizvod(event) {
+          event.preventDefault();
+  
+          const Mange = document.querySelector("#Pozadina-mange").value;
+          const vrednost2 = document.querySelector("#Pozadina-stripovi").value;
+          const vrednost3 = document.querySelector("#Pozadina-figure").value;
+  
+          console.log("Mange:", Mange);
+          console.log("Stripovi:", Stripovi);
+          console.log("Akcione Figure:", AkcioneFigure);
+        }
+      </script>
+    </body>
+  </html>
+  </body>

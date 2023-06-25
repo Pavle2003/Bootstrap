@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" >
+    <script src="https://kit.fontawesome.com/f89657e658.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="Slike/Goku-logo" alt="Logo" width="150px">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="index.html">Početna</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="#Pozadina-mange">Mange</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="#Pozadina-stripovi">Stripovi</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="#Pozadina-figure">Akcione Figure</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="Prijava.html">Prijava</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="Kontakt.html">Napravi Nalog</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="Autor.html">Autor</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Slike/Berserk.jpg" class="d-block w-100" alt="Berserk-Pozadina" id="slika1">
+          <div class="carousel-caption">
+            <h3 class="text-animation " id="h3-animacija">Berserk</h3>
+            <p class="text-animation " id="p-animacija">Njegovo ime je Gats, crni vitez, ratnik čije se ime spominje
+               samo kroz šapat. Nosi džinovski mač, železnu ruku I ožiljke iz bezbroj bitaka.
+                Obeležen je I žigom koji privlači sile mraka na njega. Ali Gats ne postaje lako 
+                njihova žrtva, poseći će svakoga iz redova tame ili bilo kog drugog ko je dovoljno 
+                lud da mu se suprotstavi.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Slike/HXH2.jpg" class="d-block w-100" alt="HXH-Pozadina" id="slika2">
+          <div class="carousel-caption">
+            <h3 class="text-animation" id="h3-animacija">Hunter x Hunter</h3>
+            <p class="text-animation" id="p-animacija">Glavni lik pod imenom Gon Freecss ima samo jedan cilj, 
+              a to je da postane pravi lovac i nađe svog oca. Da bi ga našao Gon mora da predje
+               mnogo prepreka i suoči se sa raznim neprijateljima, ali u tome mu pomažu njegovi 
+               verni prijatelji Killua, Kurapika, Leorio, kao i njegov štap za pecanje.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Slike/Zagor.jpg" class="d-block w-100" alt="Zagor-Pozadina" id="slika3">
+          <div class="carousel-caption">
+            <h3 class="text-animation" id="h3-animacija">Zagor</h3>
+            <p class="text-animation" id="p-animacija">U Darkvudskoj šumi gde vrvi od kriminala, nalazi se Zagor glavni
+              lik ovog stripa, koji je prepoznatljiv po svojoj atletskoj građi i svojoj crvenoj majici
+              sa žutim krugom u sredini, u kojem je nacrtana slika orla raširenih krila. U borbi protiv zla
+              pomaže mu njegov verni pomoćnik i prijatelj, debeli i simpatični Meksikanac pod imenom Čiko.
+              Tu su još i Tonka, poglavica Mohavka i Zagorov krvni brat, Dok Lester, indijanski vrač 
+              Mnogooki itd. Jedan od njegovih legendarnih neprijatelja je ludi naučnik po imenu Helingen.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Slike/Spiderman-pozadina.jpg" class="d-block w-100" alt="Slika 3" id="slika3">
+          <div class="carousel-caption">
+            <h3 class="text-animation" id="h3-animacija">Spider-man</h3>
+            <p class="text-animation" id="p-animacija">Bio je sasvim običan srednjoškolac, ali jednog dana ga je ujeo pauk
+              i postao je čovek sa paukovim sposobnostima, kao što su brzi refleksi i bacanje mreže.
+              Mora da čuva svoj novi indentitet kako ne bi bio uhapšen i predat naučnicima na 
+              istraživanja. Od tog dana patrolira noću gradom i bori se protiv mnogobrojnih kriminalaca
+              kako bi očuvao red i mir.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" id="dugme">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Prethodna</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next" id="dugme2">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Sledeća</span>
+      </button>
+    </div>
+    <div class="container-fluid" id="Pozadina-mange">
+      <div class="full-width-image">
+        <img src="Slike/Anime-pozadina2.png" alt="Slika" id="Anime-pozadina">
+        <div class="image-overlay">
+          <div class="container-80">
+            <h2 id="Naslov">Mange</h2>
+            <div class="row">
+              <div class="col-sm-3">
+                <img src="Slike/Boruto-manga.jpg" class="img-fluid" alt="Slika">
+                <h3 class="fs">Boruto</h3>
+                <p>500 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="position-relative">
+                  <img src="Slike/HunterXhunter-manga.jpg" class="img-fluid" alt="Slika">
+                  <span class="position-absolute top-0 end-0 p-2 bg-primary text-white" id="popust">10%</span>
+                </div>
+                <h3 class="fs">Hunter x Hunter</h3>
+                <p>550 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3" >
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+                </div>
+              <div class="col-sm-3">
+                <img src="Slike/Berserk-manga.jpg" class="img-fluid" alt="Slika">
+                <h3 class="fs">Berserk</h3>
+                <p>450 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <img src="Slike/Radiant-manga.jpg" class="img-fluid" alt="Slika">
+                <h3 class="fs">Radiant</h3>
+                <p>500 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row"> 
+              <div class="col-sm-3">
+                <img src="Slike/Vagabond-manga.jpg" class="img-fluid" alt="Slika">
+                <h3 class="fs">Vagabond</h3>
+                <p>600 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <img src="Slike/Naruto-manga.jpg" class="img-fluid" alt="Slika">
+                <h3 class="fs">Naruto</h3>
+                <p>500 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="position-relative">
+                  <img src="Slike/Chainsawman-manga.jpg" class="img-fluid" alt="Slika">
+                  <span class="position-absolute top-0 end-0 p-2 bg-primary text-white" id="popust">20%</span>
+                </div>
+                <h3 class="fs">Chainsawman</h3>
+                <p>500 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <img src="Slike/OnePunchMan.jpg" class="img-fluid" alt="Slika">
+                <h3 class="fs">One Punch Man</h3>
+                <p>550 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="container-fluid" id="Pozadina-stripovi">
+      <div class="full-width-image">
+        <img src="Slike/Stripovi-pozadina.jpg" alt="Slika" id="Anime-pozadina">
+        <div class="image-overlay">
+          <div class="container-80">
+            <h2 id="Naslov">Stripovi</h2>
+            <div class="row">
+              <div class="col-sm-3">
+                <img src="Slike/Spiderman-strip.jpg" class="img-fluid" alt="Slika">
+                <h3 class="fs" id="naslovi1">Spiderman</h3>
+                <p>500 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <img src="Slike/Zagor-strip.jpg" class="img-fluid" alt="Slika">
+                <h3 class="fs">Zagor</h3>
+                <p>400 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+                </div>
+              <div class="col-sm-3">
+                <img src="Slike/Mark-strip.jpg" class="img-fluid" alt="Slika">
+                <h3 class="fs">Mark</h3>
+                <p>400 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <img src="Slike/StarWars-strip.jpg" class="img-fluid" alt="Slika">
+                <h3 class="fs">Star Wars</h3>
+                <p>450 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row"> 
+              <div class="col-sm-3">
+                <div class="position-relative">
+                  <img src="Slike/Konan-strip.jpg" class="img-fluid" alt="Slika">
+                  <span class="position-absolute top-0 end-0 p-2 bg-primary text-white" id="popust">15%</span>
+                </div>
+                <h3 class="fs">Conan</h3>
+                <p>500 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <img src="Slike/Stena-strip.jpg" class="img-fluid" alt="Slika">
+                <h3 class="fs">Black Stena</h3>
+                <p>400 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <img src="Slike/IronaMan-strip.jpg" class="img-fluid" alt="Slika">
+                <h3 class="fs">Iron Man</h3>
+                <p>400 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <img src="Slike/XMan-strip.jpg" class="img-fluid" alt="Slika">
+                <h3 class="fs">X Man</h3>
+                <p>450px</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    
+    <div class="container-fluid" id="Pozadina-figure">
+      <div class="full-width-image">
+        <img src="Slike/Figure-pozadina.png" alt="Slika" id="Anime-pozadina">
+        <div class="image-overlay">
+          <div class="container-80">
+            <h2 id="Naslov">Akcione Figure</h2>
+            <div class="row">
+              <div class="col-sm-3">
+                <img src="Slike/Eren-figura.jpg" class="img-fluid" alt="Slika">
+                <h3 class="fs">Eren Jeager</h3>
+                <p>4.200 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <img src="Slike/AquaMan-figura.jpg" class="img-fluid" alt="Slika">
+                <h3 class="fs">Aqua Man</h3>
+                <p>2.500 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+                </div>
+              <div class="col-sm-3">
+                <img src="Slike/Konan-figura.jpg" class="img-fluid" alt="Slika">
+                <h3 class="fs">Conan</h3>
+                <p>1.700 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <img src="Slike/HeMan-figura.jpg" class="img-fluid" alt="Slika">
+                <h3 class="fs">Skeletor</h3>
+                <p>7.590 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row"> 
+              <div class="col-sm-3">
+                <img src="Slike/Killua-figura.jpg" class="img-fluid" alt="Slika">
+                <h3 class="fs">Killua Zoldyck</h3>
+                <p>10.720 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <img src="Slike/Jones-figura.jpg" class="img-fluid" alt="Slika">
+                <h3 class="fs">Indiana Jones</h3>
+                <p>6.600 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="position-relative">
+                  <img src="Slike/Leonardo-figure.jpg" class="img-fluid" alt="Slika">
+                  <span class="position-absolute top-0 end-0 p-2 bg-primary text-white" id="popust">20%</span>
+                </div>
+                <h3 class="fs">Leonardo</h3>
+                <p>9.490 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <img src="Slike/Itachi-figura.jpg" class="img-fluid" alt="Slika">
+                <h3 class="fs">Itachi</h3>
+                <p>3.390 rsd</p>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Dodaj u korpu</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3" >
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header" id="Mange-drzac">
+                    <img src="Slike/Boruto-manga.jpg" class="rounded me-2" alt="Boruto" >
+                    <strong class="me-auto">Boruto Next Generations</strong>
+                    <small>Now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body">
+                    Dodali ste Boruto mangu poglavlja 1 u korpu.
+                  </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <footer class="bg-light text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #3b5998;"
+            href="https://www.facebook.com/"
+            role="button" target="_blank" id="Mreze" 
+            ><i class="fab fa-facebook-f" id="Mreze-ikonice"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #55acee;"
+            href="https://www.Twitter.com/"
+            role="button" target="_blank" id="Mreze" 
+            ><i class="fab fa-twitter" id="Mreze-ikonice"></i
+          ></a>
+    
+          <!-- Google -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #dd4b39;"
+            href="https://www.gmail.com/"
+            role="button" target="_blank" id="Mreze" 
+            ><i class="fab fa-google" id="Mreze-ikonice"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #ac2bac;"
+            href="https://www.instagram.com/"
+            role="button" target="_blank" id="Mreze"
+            ><i class="fab fa-instagram" id="Mreze-ikonice"></i></a>
+
+
+            <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #252525;"
+            href="https://www.instagram.com/"
+            role="button" target="_blank" id="Mreze"
+            ><i class="fa-solid fa-sitemap" id="Mreze-ikonice"></i></a>
+
+
+            <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #252525;"
+            href="https://www.instagram.com/"
+            role="button" target="_blank" id="Mreze"
+            ><i class="fa-solid fa-rss" id="Mreze-ikonice"></i></a>
+
+
+          <img src="Slike/DinaCard2.png" alt="DinaCard" id="Kartice">
+          <img src="Slike/MasterCard.png" alt="MasterCard" id="Kartice">
+          <img src="Slike/PayPal.png" alt="PayPal" id="Kartice">
+          <img src="Slike/Visa3.jpg" alt="Visa" id="Kartice">      
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3 h5" style="background-color: rgba(0, 0, 0, 0.2);" id="copyright"> 
+        © 2023 Copyright:
+        <img src="Slike/Goku-logo" alt="logo" width="100px">
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script>
+      const toastTrigger = document.getElementById('liveToastBtn')
+      const toastLiveExample = document.getElementById('liveToast')
+
+        if (toastTrigger) {
+          const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+          toastTrigger.addEventListener('click', () => {
+            toastBootstrap.show()
+          })
+        }
+    </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+      var carouselCaptions = document.querySelectorAll('.carousel-caption');
+      
+      function showCaption() {
+        var activeCaption = document.querySelector('.carousel-caption.show');
+        if (activeCaption) {
+          activeCaption.classList.remove('show');
+        }
+        this.querySelector('.carousel-caption').classList.add('show');
+      }
+      
+      carouselCaptions.forEach(function(caption) {
+        var carouselItem = caption.parentNode;
+        carouselItem.addEventListener('mouseenter', showCaption);
+        carouselItem.addEventListener('touchstart', showCaption);
+      });
+    });
+    </script>
+    <script>
+      function pretraziProizvod(event) {
+        event.preventDefault();
+
+        const Mange = document.querySelector("#Pozadina-mange").value;
+        const vrednost2 = document.querySelector("#Pozadina-stripovi").value;
+        const vrednost3 = document.querySelector("#Pozadina-figure").value;
+
+        console.log("Mange:", Mange);
+        console.log("Stripovi:", Stripovi);
+        console.log("Akcione Figure:", AkcioneFigure);
+      }
+    </script>
+  </body>
+</html>
