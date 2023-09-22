@@ -415,11 +415,63 @@ header{
         height: 7150px;
         width: 7150px;
     }
+    #Usluge{
+        flex-wrap: wrap;
+        height: 500px;
+    }
+    .blok1 {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .blok1 i{
+        font-size:20pt;
+        padding-top: 10px;
+    }
+    .blok1 h2{
+        font-size:13pt;
+    }
+    .blok1 p{
+        font-size:10pt;
+        width: 100%;
+    }
+    #pod-usluge {
+        padding: 10px;
+        flex-direction: column;
+    }
+    .blok1:hover {
+        transform:scale(0.9);
+    }
 }
 @media screen and (min-width: 331px) and (max-width: 339px){
     #Anime-pozadina{
         height: 7300px;
         width: 7300px;
+    }
+    #Usluge{
+        flex-wrap: wrap;
+        height: 500px;
+    }
+    .blok1 {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .blok1 i{
+        font-size:20pt;
+        padding-top: 10px;
+    }
+    .blok1 h2{
+        font-size:13pt;
+    }
+    .blok1 p{
+        font-size:10pt;
+        width: 100%;
+    }
+    #pod-usluge {
+        padding: 10px;
+        flex-direction: column;
+    }
+    .blok1:hover {
+        transform:scale(0.9);
     }
 }
 @media screen and (min-width: 340px) and (max-width: 344px){
@@ -427,17 +479,95 @@ header{
         height: 7365px;
         width: 7365px;
     }
+    #Usluge{
+        flex-wrap: wrap;
+        height: 500px;
+    }
+    .blok1 {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .blok1 i{
+        font-size:20pt;
+        padding-top: 10px;
+    }
+    .blok1 h2{
+        font-size:13pt;
+    }
+    .blok1 p{
+        font-size:10pt;
+        width: 100%;
+    }
+    #pod-usluge {
+        padding: 10px;
+        flex-direction: column;
+    }
+    .blok1:hover {
+        transform:scale(0.9);
+    }
 }
 @media screen and (min-width: 345px) and (max-width: 352px){
     #Anime-pozadina{
         height: 7500px;
         width: 7500px;
     }
+    #Usluge{
+        flex-wrap: wrap;
+        height: 500px;
+    }
+    .blok1 {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .blok1 i{
+        font-size:20pt;
+        padding-top: 10px;
+    }
+    .blok1 h2{
+        font-size:13pt;
+    }
+    .blok1 p{
+        font-size:10pt;
+        width: 100%;
+    }
+    #pod-usluge {
+        padding: 10px;
+        flex-direction: column;
+    }
+    .blok1:hover {
+        transform:scale(0.9);
+    }
 }
 @media screen and (min-width: 353px) and (max-width: 360px){
     #Anime-pozadina{
         height: 7700px;
         width: 7700px;
+    }
+    #Usluge{
+        flex-wrap: wrap;
+        height: 500px;
+    }
+    .blok1 {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .blok1 i{
+        font-size:20pt;
+        padding-top: 10px;
+    }
+    .blok1 h2{
+        font-size:13pt;
+    }
+    .blok1 p{
+        font-size:10pt;
+        width: 100%;
+    }
+    #pod-usluge {
+        padding: 10px;
+        flex-direction: column;
+    }
+    .blok1:hover {
+        transform:scale(0.9);
     }
 }
 @media screen and (min-width: 361px) and (max-width: 370px){
