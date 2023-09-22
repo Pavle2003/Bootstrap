@@ -350,7 +350,7 @@ header{
 
 
 
-@media screen and (min-width: 320px) and (max-width: 344px){
+@media screen and (min-width: 320px) and (max-width: 323px){
     #h3-animacija{
         font-size: 12pt;
     }
@@ -410,10 +410,40 @@ header{
         padding-bottom: 15px;
     }
 }
-@media screen and (min-width: 345px) and (max-width: 370px){
+@media screen and (min-width: 324px) and (max-width: 330px){
+    #Anime-pozadina{
+        height: 7150px;
+        width: 7150px;
+    }
+}
+@media screen and (min-width: 331px) and (max-width: 339px){
+    #Anime-pozadina{
+        height: 7300px;
+        width: 7300px;
+    }
+}
+@media screen and (min-width: 340px) and (max-width: 344px){
+    #Anime-pozadina{
+        height: 7350px;
+        width: 7350px;
+    }
+}
+@media screen and (min-width: 345px) and (max-width: 352px){
     #Anime-pozadina{
         height: 7500px;
-        width: 7300px;
+        width: 7500px;
+    }
+}
+@media screen and (min-width: 353px) and (max-width: 360px){
+    #Anime-pozadina{
+        height: 7700px;
+        width: 7700px;
+    }
+}
+@media screen and (min-width: 361px) and (max-width: 370px){
+    #Anime-pozadina{
+        height: 7800px;
+        width: 7800px;
     }
     #Kontakt-kontejner{
         width: 80%;
