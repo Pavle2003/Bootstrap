@@ -425,6 +425,9 @@ header{
         flex-wrap: wrap;
         height: 500px;
     }
+    #Kontakt-kontejner{
+        width: 80%;
+    }
     .blok1 {
         width: 100%;
         margin-top: 10px;
@@ -463,6 +466,9 @@ header{
         flex-wrap: wrap;
         height: 500px;
     }
+    #Kontakt-kontejner{
+        width: 80%;
+    }
     .blok1 {
         width: 100%;
         margin-top: 10px;
@@ -496,6 +502,9 @@ header{
     #Anime-pozadina{
         height: 7365px;
         width: 7365px;
+    }
+    #Kontakt-kontejner{
+        width: 80%;
     }
     #Usluge{
         flex-wrap: wrap;
@@ -539,6 +548,9 @@ header{
         flex-wrap: wrap;
         height: 500px;
     }
+    #Kontakt-kontejner{
+        width: 80%;
+    }
     .blok1 {
         width: 100%;
         margin-top: 10px;
@@ -576,6 +588,9 @@ header{
     #Usluge{
         flex-wrap: wrap;
         height: 500px;
+    }
+    #Kontakt-kontejner{
+        width: 80%;
     }
     .blok1 {
         width: 100%;
@@ -705,6 +720,9 @@ header{
         height: 8100px;
         width: 8100px;
     }
+    #Kontakt-kontejner{
+        width: 80%;
+    }
     #Usluge{
         height: 500px;
         flex-wrap: wrap;
@@ -789,6 +807,9 @@ header{
     #Anime-pozadina{
         height: 8400px;
         width: 8400px;
+    }
+    #Kontakt-kontejner{
+        width: 80%;
     }
     #Usluge{
         height: 500px;
@@ -975,6 +996,9 @@ header{
     #Anime-pozadina{
         height: 9170px;
         width: 9170px;
+    }
+    #Kontakt-kontejner{
+        width: 80%;
     }
     #Usluge{
         height: 500px;
