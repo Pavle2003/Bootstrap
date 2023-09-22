@@ -61,6 +61,7 @@ header{
 }
 .blok1 p{
     width: 95%;
+    padding: 10px;
 }
 .blok1:hover {
     background-color:#24262b; 
@@ -249,15 +250,20 @@ header{
     transition: 0.5s;
     width: 100%;
 }
+.Akaunt{
+    color: #fff;
+}
 .Akaunt a{
-    color: rgba(0, 0, 0, 0.5);
+    color: #fff;
     text-decoration: none;
+    font-weight: 1000;
 }
 #Submit:hover{
     transform:scale(1.05);
     letter-spacing:2px;
     
 }
+
 #Submit2:hover{
     transform:scale(1.05);
     letter-spacing:2px;
@@ -267,15 +273,20 @@ header{
 .form-area{
     padding-top: 7%;
     padding-bottom: 7%;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.8);
+    
+    background-image: url('../Slike/Prijava-Pozadina2.png');
     background-size: cover;
     background-position: center;
+}
+.form-label, .form-check-label{
+    color: #fff;
 }
 #kontejner{
     padding-left: 0;
     padding-right: 0;
     border: 1px solid;
-    background: url('../Slike/Prijava-pozadina.jpg');
+    background: rgba(0, 0, 0, 0.9);
 }
 #row-single-form{
     box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.5);
@@ -292,7 +303,7 @@ header{
 }
 .left span{
     font-size: 35px;
-    color: black;
+    color: #fff;
 }
 .right{
     padding: 70px 100px;
@@ -336,37 +347,8 @@ header{
 #obuhvat{
     font-weight: 500;
 }
-@media (min-width: 768px) and (max-width: 991px){
-    .right i {
-        top:-52px;
-        transform: rotate(90deg);
-        left: 50%;
-    }
-}
-@media (max-width: 768px){
-    .left{
-        padding: 90px 15px;
-        text-align: center;
-    }
-    .left h2{
-        font-size: 25px;
-    }
-    .right{
-        padding: 25px;
-    }
-    .right i{
-        top: -52px;
-        transform: rotate(90deg);
-        left: 45%;
-    }
-    .right button{
-        width: 150px;
-        padding: 12px 0;
-    }
-    #Usluge{
-        flex-wrap: wrap;
-    }
-}
+
+
 
 @media screen and (min-width: 320px) and (max-width: 344px){
     #h3-animacija{
@@ -822,20 +804,23 @@ header{
 }
 @media screen and (min-width: 576px) and (max-width: 700px){
     #Anime-pozadina{
-        height: 1075px !important;
-        width: 900px !important;
+        height: 3000px !important;
+        width: 3000px !important;
+    }
+    .col-sm-3{
+        width: 50%;
     }
     .fs{
-        font-size: 9pt;
+        font-size: 12pt;
     }
     #liveToastBtn {
-        font-size: 8pt;
+        font-size: 10pt;
     }
     #Kontakt-kontejner{
         width: 70%;
     }
     .col-sm-3 p{
-        font-size: 8pt;
+        font-size: 10pt;
     }
     #popust {
         font-size: 8pt;
@@ -870,26 +855,48 @@ header{
     }
 }
 @media screen and (min-width: 701px) and (max-width: 767px){
+    #Anime-pozadina{
+        height: 3900px !important;
+        width: 3900px !important;
+    }
     #kolona4{
         padding-bottom: 15px;
+    }
+    .col-sm-3{
+        width: 50%;
+    }
+    .col-sm-3{
+        width: 50%;
+    }
+    .fs{
+        font-size: 14pt;
+    }
+    #liveToastBtn {
+        font-size: 10pt;
+    }
+    .col-sm-3 p{
+        font-size: 12pt;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 900px){
     #Anime-pozadina{
-        height: 1200px !important;
-        width: 900px !important;
+        height: 4000px !important;
+        width: 4000px !important;
+    }
+    .col-sm-3{
+        width: 50%;
     }
     .fs{
-        font-size: 9pt;
+        font-size: 14pt;
     }
     #liveToastBtn {
-        font-size: 8pt;
+        font-size: 10pt;
     }
     #Kontakt-kontejner{
         width: 70%;
     }
     .col-sm-3 p{
-        font-size: 9pt;
+        font-size: 12pt;
     }
     #popust {
         font-size: 9pt;
@@ -897,11 +904,61 @@ header{
     #kolona4{
         padding: 15px;
     }
+    .right i {
+        top:-52px;
+        transform: rotate(90deg);
+        left: 50%;
+    }
+    .blok1 i{
+        font-size:35pt;
+        padding-top: 10px;
+    }
+    .blok1 h2{
+        font-size: 16pt;
+    }
+    .blok1 p{
+        padding: 10px;
+        padding-top: 0px;
+        font-size: 11pt;
+    }
+}
+@media (max-width: 767px){
+    .left{
+        padding: 90px 15px;
+        text-align: center;
+    }
+    .left h2{
+        font-size: 25px;
+    }
+    .right{
+        padding: 25px;
+    }
+    .right i{
+        top: -52px;
+        transform: rotate(90deg);
+        left: 45%;
+    }
+    .right button{
+        width: 150px;
+        padding: 12px 0;
+    }
+    #Usluge{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width: 901px) and (max-width: 990px){
+    #Anime-pozadina{
+        height: 4700px;
+        width: 4700px;
+    }
+    .col-sm-3{
+        width: 50%;
+    }
 }
 @media screen and (min-width: 991px) and (max-width: 1023px){
     #Anime-pozadina{
         height: 1455px;
-        width: 1024px;
+        width: 1455px;
     }
     .fs{
         font-size: 14pt;
@@ -909,11 +966,21 @@ header{
     .col-sm-3 p{
         font-size: 12pt;
     }
+    .blok1 p{
+        padding-top: 0px;
+        font-size: 12pt;
+    }
+    .blok1{
+        margin-bottom: 15px;
+    }
 }
 @media screen and (min-width:1024px) and (max-width:1052px) {
+    #lii a{
+        font-size: 12pt;
+    }
     #Anime-pozadina{
         height: 1525px;
-        width: 1148px;
+        width: 1525px;
     }
     #Kontakt-kontejner{
         width: 60%;
@@ -930,11 +997,20 @@ header{
     .col-sm-3 p{
         font-size: 15pt;
     }
+    .blok1 p{
+        padding-top: 0px;
+    }
+    .blok1{
+        margin-bottom: 15px;
+    }
 }
 @media screen and (min-width:1052px) and (max-width:1439px){
+    #lii a{
+        font-size: 17pt;
+    }
     #Anime-pozadina{
         height: 1925px !important;
-        width: 1440px;
+        width: 1925px;
     }
     #dugme, 
     #dugme2{
@@ -954,10 +1030,10 @@ header{
         font-size: 15pt;
     }
     #liveToastBtn {
-        font-size: 13pt;
+        font-size: 15pt;
     }
     #Naslov{
-        font-size: 35pt;
+        font-size: 30pt;
     }
     #NaslovP{
         font-size: 35pt;
@@ -1025,7 +1101,7 @@ header{
     
     #Anime-pozadina{
         height: 2100px !important;
-        width: 1600px !important;
+        width: 2100px !important;
     }
     #dugme, 
     #dugme2{
@@ -1039,13 +1115,13 @@ header{
         font-size: 17pt;
     }
     .fs{
-        font-size: 22pt;
+        font-size: 20pt;
     }
     .col-sm-3 p{
-        font-size: 19pt;
+        font-size: 17pt;
     }
     #liveToastBtn {
-        font-size: 20pt;
+        font-size: 17pt;
     }
     #Naslov{
         font-size: 35pt;
@@ -1102,7 +1178,7 @@ header{
         font-size: 20pt ;
     }
     #popust {
-        font-size: 20pt !important;
+        font-size: 17pt !important;
     }
     #Kartice {
         width: 60px;
@@ -1125,24 +1201,24 @@ header{
         height: 450px;
     }
     .blok1 i{
-        font-size:45pt;
+        font-size:70pt;
         padding-top: 15px;
     }
     .blok1 h2{
-        font-size:20pt;
+        font-size:19pt;
     }
     .blok1 p{
-        font-size:20pt;
+        font-size:16pt;
         width: 100%;
     }
     #obuhvat{
-        font-size: 32pt;
+        font-size: 30pt;
     }
     #obuhvatP{
-        font-size: 23pt;
+        font-size: 18pt;
     }
     .button5{
-        font-size: 23pt;
+        font-size: 18pt;
     }
 }
 @media screen and (min-width: 1511px) and (max-width:1600px) {
@@ -1154,7 +1230,13 @@ header{
     } 
     #Anime-pozadina{
         height: 2200px !important;
-        width: 1600px !important;
+        width: 2200px !important;
+    }
+    #h3-animacija{
+        font-size: 30pt;
+    }
+    #p-animacija{
+        font-size: 21pt;
     }
     #dugme, 
     #dugme2{
@@ -1162,13 +1244,13 @@ header{
         height: 70px;
     }
     .fs{
-        font-size: 22pt;
+        font-size: 20pt;
     }
     .col-sm-3 p{
-        font-size: 19pt;
+        font-size: 17pt;
     }
     #liveToastBtn {
-        font-size: 20pt;
+        font-size: 17pt;
     }
     #Naslov{
         font-size: 35pt;
@@ -1248,39 +1330,36 @@ header{
         width: 120px;
     }
     #obuhvat{
-        font-size: 32pt;
+        font-size: 30pt;
     }
     #obuhvatP{
-        font-size: 23pt;
+        font-size: 21pt;
     }
     .button5{
-        font-size: 23pt;
-    }
-    #obuhvat{
-        font-size: 32pt;
-    }
-    #obuhvatP{
-        font-size: 23pt;
-    }
-    .button5{
-        font-size: 23pt;
+        font-size: 20pt;
     }
 }
 @media screen and (min-width: 1601px) and (max-width:1850px) {
     #lii a{
-        font-size: 21pt;
+        font-size: 20pt;
     }
     #dugme, 
     #dugme2{
         width: 80px;
         height: 80px;
     }
+    #h3-animacija{
+        font-size: 33pt;
+    }
+    #p-animacija{
+        font-size: 23pt;
+    }
     #Anime-pozadina{
         height: 2450px !important;
-        width: 185S0px !important;
+        width: 2450px !important;
     }
     .fs{
-        font-size: 23pt;
+        font-size: 21pt;
     }
     .col-sm-3 p{
         font-size: 18pt;
@@ -1369,18 +1448,18 @@ header{
         width: 130px;
     }
     #obuhvat{
-        font-size: 33pt;
+        font-size: 30pt;
     }
     #obuhvatP{
-        font-size: 24pt;
+        font-size: 21pt;
     }
     .button5{
-        font-size: 24pt;
+        font-size: 21pt;
     }
 }
 @media screen and (min-width: 1851px) and (max-width:1920px) {
     #lii a{
-        font-size: 22pt;
+        font-size: 20pt;
     }
     #dugme, 
     #dugme2{
@@ -1388,29 +1467,29 @@ header{
         height: 80px;
     }
     #h3-animacija{
-        font-size: 40pt;
+        font-size: 33pt;
     }
     #p-animacija{
-        font-size: 28pt;
+        font-size: 23pt;
     }
     #Anime-pozadina{
         height: 2600px !important;
-        width: 1920px !important;
+        width: 2600px !important;
     }
     .fs{
-        font-size: 27pt;
+        font-size: 25pt;
     }
     .col-sm-3 p{
         font-size: 18pt;
     }
     #liveToastBtn {
-        font-size: 20pt;
+        font-size: 18pt;
     }
     #Naslov{
-        font-size: 35pt;
+        font-size: 30pt;
     }
     .display-6{
-        font-size: 40pt;
+        font-size: 25pt;
     }
     #kontejner{
         max-width: 1500px;
@@ -1419,7 +1498,7 @@ header{
     .form-control, 
     .form-select,
     .form-check-label{
-        font-size: 25pt;
+        font-size: 22pt;
     }
     .form-check-input{
         font-size: 20pt;
@@ -1497,7 +1576,7 @@ header{
         margin-top: 10px;
     }
     .blok1 i{
-        font-size:60pt;
+        font-size:75pt;
         padding-top: 10px;
     }
     .blok1 h2{
@@ -1514,13 +1593,22 @@ header{
         transform:scale(1.1);
     }
     #obuhvat{
-        font-size: 35pt;
+        font-size: 30pt;
     }
     #obuhvatP{
-        font-size: 25pt;
+        font-size: 21pt;
     }
     .button5{
+        font-size: 21pt;
+    }
+    .card-title,#emp1,#emp2,#emp3,#emp4,.modal-body p{
         font-size: 25pt;
+    }
+    button{
+        font-size: 20pt;
+    }
+    .myCarousel{
+        height: 800px;
     }
 }
 
