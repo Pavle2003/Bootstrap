@@ -411,6 +411,12 @@ header{
     }
 }
 @media screen and (min-width: 324px) and (max-width: 330px){
+    #h3-animacija{
+        font-size: 12pt;
+    }
+    #p-animacija{
+        font-size: 8pt;
+    }
     #Anime-pozadina{
         height: 7150px;
         width: 7150px;
@@ -443,6 +449,12 @@ header{
     }
 }
 @media screen and (min-width: 331px) and (max-width: 339px){
+    #h3-animacija{
+        font-size: 12pt;
+    }
+    #p-animacija{
+        font-size: 8pt;
+    }
     #Anime-pozadina{
         height: 7300px;
         width: 7300px;
@@ -475,6 +487,12 @@ header{
     }
 }
 @media screen and (min-width: 340px) and (max-width: 344px){
+    #h3-animacija{
+        font-size: 12pt;
+    }
+    #p-animacija{
+        font-size: 8pt;
+    }
     #Anime-pozadina{
         height: 7365px;
         width: 7365px;
@@ -507,6 +525,12 @@ header{
     }
 }
 @media screen and (min-width: 345px) and (max-width: 352px){
+    #h3-animacija{
+        font-size: 12pt;
+    }
+    #p-animacija{
+        font-size: 8pt;
+    }
     #Anime-pozadina{
         height: 7500px;
         width: 7500px;
@@ -539,6 +563,12 @@ header{
     }
 }
 @media screen and (min-width: 353px) and (max-width: 360px){
+    #h3-animacija{
+        font-size: 12pt;
+    }
+    #p-animacija{
+        font-size: 8pt;
+    }
     #Anime-pozadina{
         height: 7700px;
         width: 7700px;
@@ -571,6 +601,12 @@ header{
     }
 }
 @media screen and (min-width: 361px) and (max-width: 370px){
+    #h3-animacija{
+        font-size: 12pt;
+    }
+    #p-animacija{
+        font-size: 8pt;
+    }
     #Anime-pozadina{
         height: 7800px;
         width: 7800px;
@@ -582,7 +618,7 @@ header{
         padding: 0%;
     }
     #Usluge{
-    
+        flex-wrap: wrap;
         height: 500px;
     }
     .blok1 {
@@ -612,6 +648,12 @@ header{
     }
 }
 @media screen and (min-width: 371px) and (max-width: 384px){
+    #h3-animacija{
+        font-size: 12pt;
+    }
+    #p-animacija{
+        font-size: 8pt;
+    }
     #Anime-pozadina{
         height: 8000px;
         width: 8000px;
@@ -623,7 +665,7 @@ header{
         padding: 0%;
     }
     #Usluge{
-      
+        flex-wrap: wrap;
         height: 500px;
     }
     .blok1 {
@@ -653,12 +695,50 @@ header{
     }
 }
 @media screen and (min-width: 385px) and (max-width: 390px){
+    #h3-animacija{
+        font-size: 12pt;
+    }
+    #p-animacija{
+        font-size: 8pt;
+    }
     #Anime-pozadina{
         height: 8100px;
         width: 8100px;
     }
+    #Usluge{
+        height: 500px;
+        flex-wrap: wrap;
+    }
+    .blok1 {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .blok1 i{
+        font-size:20pt;
+        padding-top: 10px;
+    }
+    .blok1 h2{
+        font-size:13pt;
+    }
+    .blok1 p{
+        font-size:10pt;
+        width: 100%;
+    }
+    #pod-usluge {
+        padding: 10px;
+        flex-direction: column;
+    }
+    .blok1:hover {
+        transform:scale(0.9);
+    }
 }
 @media screen and (min-width: 391px) and (max-width: 404px){
+    #h3-animacija{
+        font-size: 12pt;
+    }
+    #p-animacija{
+        font-size: 8pt;
+    }
     #Anime-pozadina{
         height: 8300px;
         width: 8300px;
@@ -671,6 +751,7 @@ header{
     }
     #Usluge{
         height: 500px;
+        flex-wrap: wrap;
     }
     .blok1 {
         width: 100%;
@@ -699,12 +780,50 @@ header{
     }
 }
 @media screen and (min-width: 405px) and (max-width: 410px){
+    #h3-animacija{
+        font-size: 12pt;
+    }
+    #p-animacija{
+        font-size: 8pt;
+    }
     #Anime-pozadina{
         height: 8400px;
         width: 8400px;
     }
+    #Usluge{
+        height: 500px;
+        flex-wrap: wrap;
+    }
+    .blok1 {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .blok1 i{
+        font-size:20pt;
+        padding-top: 10px;
+    }
+    .blok1 h2{
+        font-size:13pt;
+    }
+    .blok1 p{
+        font-size:10pt;
+        width: 100%;
+    }
+    #pod-usluge {
+        padding: 10px;
+        flex-direction: column;
+    }
+    .blok1:hover {
+        transform:scale(0.9);
+    }
 }
 @media screen and (min-width: 411px) and (max-width: 420px){
+    #h3-animacija{
+        font-size: 12pt;
+    }
+    #p-animacija{
+        font-size: 8pt;
+    }
     #Anime-pozadina{
         height: 8600px;
         width: 8600px;
@@ -717,6 +836,7 @@ header{
     }
     #Usluge{
         height: 500px;
+        flex-wrap: wrap;
     }
     .blok1 {
         width: 100%;
@@ -856,6 +976,32 @@ header{
         height: 9170px;
         width: 9170px;
     }
+    #Usluge{
+        height: 500px;
+        flex-wrap: wrap;
+    }
+    .blok1 {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .blok1 i{
+        font-size:20pt;
+        padding-top: 10px;
+    }
+    .blok1 h2{
+        font-size:13pt;
+    }
+    .blok1 p{
+        font-size:10pt;
+        width: 100%;
+    }
+    #pod-usluge {
+        padding: 10px;
+        flex-direction: column;
+    }
+    .blok1:hover {
+        transform:scale(0.9);
+    }
 }
 @media screen and (min-width: 461px) and (max-width: 473px){
     #Anime-pozadina{
@@ -941,6 +1087,35 @@ header{
     #Anime-pozadina{
         height: 9800px;
         width: 9800px;
+    }
+    #Usluge{
+        height: 500px;
+        flex-wrap: wrap;
+    }
+    .blok1 {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .blok1 i{
+        font-size:20pt;
+        padding-top: 10px;
+    }
+    .blok1 h2{
+        font-size:13pt;
+    }
+    .blok1 p{
+        font-size:10pt;
+        width: 100%;
+    }
+    #pod-usluge {
+        padding: 10px;
+        flex-direction: column;
+    }
+    .blok1:hover {
+        transform:scale(0.9);
+    }
+    #Kontakt-kontejner{
+        width: 80%;
     }
 }
 @media screen and (min-width: 501px) and (max-width: 575px){
@@ -1044,12 +1219,6 @@ header{
         height: 3900px !important;
         width: 3900px !important;
     }
-    #kolona4{
-        padding-bottom: 15px;
-    }
-    .col-sm-3{
-        width: 50%;
-    }
     .col-sm-3{
         width: 50%;
     }
@@ -1059,8 +1228,34 @@ header{
     #liveToastBtn {
         font-size: 10pt;
     }
+    #Kontakt-kontejner{
+        width: 70%;
+    }
     .col-sm-3 p{
         font-size: 12pt;
+    }
+    #popust {
+        font-size: 9pt;
+    }
+    #kolona4{
+        padding: 15px;
+    }
+    .right i {
+        top:-52px;
+        transform: rotate(90deg);
+        left: 50%;
+    }
+    .blok1 i{
+        font-size:35pt;
+        padding-top: 10px;
+    }
+    .blok1 h2{
+        font-size: 16pt;
+    }
+    .blok1 p{
+        padding: 10px;
+        padding-top: 0px;
+        font-size: 11pt;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 900px){
@@ -1139,6 +1334,24 @@ header{
     .col-sm-3{
         width: 50%;
     }
+    #popust {
+        font-size: 9pt;
+    }
+    #Kontakt-kontejner{
+        width: 70%;
+    }
+    .blok1 i{
+        font-size:35pt;
+        padding-top: 10px;
+    }
+    .blok1 h2{
+        font-size: 16pt;
+    }
+    .blok1 p{
+        padding: 10px;
+        padding-top: 0px;
+        font-size: 11pt;
+    }
 }
 @media screen and (min-width: 991px) and (max-width: 1023px){
     #Anime-pozadina{
@@ -1157,6 +1370,9 @@ header{
     }
     .blok1{
         margin-bottom: 15px;
+    }
+    #Kontakt-kontejner{
+        width: 70%;
     }
 }
 @media screen and (min-width:1024px) and (max-width:1052px) {
